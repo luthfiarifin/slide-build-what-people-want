@@ -1287,9 +1287,9 @@
   /* S16 AI evidence */
   .ai-grid{display:grid;grid-template-columns:1fr auto;grid-template-rows:auto auto 1fr;gap:3vh 3vw;align-items:start;min-height:0}
   .ai-grid figure.tile{min-width:0}
-  .ai-grid .tile.phone{grid-column:2;grid-row:1/4;width:calc(53vh * 568 / 940)}
-  .frame-img.ai-shot{height:29vh;width:calc(29vh * 1600 / 628);max-width:100%}
-  .frame-img.ai-shot.tall{height:53vh;width:100%}
+  .ai-grid .tile.phone{grid-column:2;grid-row:1/4;width:min(19vw,31vh)}
+  .frame-img.ai-shot{width:100%;height:min(30vh,19vw)}
+  .frame-img.ai-shot.tall{height:auto;aspect-ratio:568/940}
   .ai-grid .swiss-img-caption{flex-direction:column;gap:.6vh}
   .ai-more{grid-column:1;display:grid;grid-template-columns:1fr 1fr;gap:1.6vw}
   .ai-more > div{display:flex;flex-direction:column;gap:.8vh;border-top:1px solid var(--ink);padding-top:1.4vh}
@@ -1638,12 +1638,12 @@
       </div>
       <div data-anim="up" class="ai-grid">
         <figure class="tile">
-          <div class="frame-img fit-contain ai-shot" style="background:#0b1623"><img src="images/ai-analytics-dashboard.jpg" data-image-slot="s16-ai-analytics" alt="Abadikan Metabase dashboard: revenue versus ad spend, numbers blurred"></div>
+          <div class="frame-img fit-contain ai-shot" style="background:#061721"><img src="images/ai-analytics-dashboard.jpg" data-image-slot="s16-ai-analytics" alt="Abadikan Metabase dashboard: revenue versus ad spend, numbers blurred"></div>
           <figcaption class="swiss-img-caption"><strong>01 · Analytics · In use</strong><span>Claude + Metabase MCP: “what changed, and why?”</span></figcaption>
         </figure>
         <figure class="tile phone">
           <div class="frame-img fit-contain ai-shot tall" style="background:#0a0a0a"><img src="images/ai-support-mindi.jpg" data-image-slot="s16-ai-support" alt="WhatsApp chat: a customer asks about revisions, Mindi explains, and the customer asks for the order link"></div>
-          <figcaption class="swiss-img-caption"><strong>02 · Support · In production</strong><span>Mindi answers, the customer asks for the link</span></figcaption>
+          <figcaption class="swiss-img-caption"><strong>02 · Support · In production</strong><span>Mindi on WhatsApp</span></figcaption>
         </figure>
         <div class="ai-more">
           <div><span class="t-meta">— 03 / Sales · In production</span><span class="d">An agent researches, verifies and scores leads into our pipeline.</span></div>
