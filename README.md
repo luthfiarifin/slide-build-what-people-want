@@ -18,7 +18,7 @@ Part of [luthfiarifin/research](https://github.com/luthfiarifin/research) (linke
 
 | # | Slide | Layout |
 |---|---|---|
-| 01 | The hardest bug is the market (+ “bugs at the market” sticker) | Cover with portrait |
+| 01 | The hardest bug is the market | Cover with portrait |
 | 02 | It works. 0 customers. So why won't anyone buy it? (+ zero-downloads meme) | S03 split statement |
 | 03 | Act I · We knew how to build. | S09 act divider |
 | 04 | WIGO: we built everything | S22 image hero |
@@ -77,4 +77,4 @@ Dependabot keeps the Actions and npm dependencies up to date.
 
 Built on the Swiss Style template from [guizang-ppt-skill](https://github.com/op7418/guizang-ppt-skill) (Safety Orange theme), with the presenter UI translated to English. The template and the vendored validator scripts are AGPL-3.0, so this repository is licensed under [AGPL-3.0](LICENSE).
 
-Slide copy, speaker notes, the portrait and the WIGO, Abadikan, interactive-catalog, analytics and support screenshots are © Muhammad Luthfi Arifin. The memes and the market photo belong to their respective owners.
+Slide copy, speaker notes, the portrait and the WIGO, Abadikan, interactive-catalog, analytics and support screenshots are © Muhammad Luthfi Arifin. The memes belong to their respective owners.
