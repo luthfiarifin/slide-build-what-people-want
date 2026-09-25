@@ -1,0 +1,19 @@
+{
+  "name": "slide-the-hardest-bug-is-the-market",
+  "private": true,
+  "description": "Founder talk: The Hardest Bug Is the Market. Product–market fit lessons from WIGO and Abadikan, and AI as a faster learning loop.",
+  "license": "AGPL-3.0-only",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "check:assets": "node scripts/check-assets.mjs index.html",
+    "check:layout": "node scripts/validate-swiss-deck.mjs index.html",
+    "check:presenter": "node scripts/validate-presenter-mode.mjs index.html --target-minutes 10",
+    "test": "npm run check:assets && npm run check:layout && npm run check:presenter"
+  },
+  "devDependencies": {
+    "playwright": "1.63.0"
+  }
+}
