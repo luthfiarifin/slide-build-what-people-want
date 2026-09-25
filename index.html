@@ -3,11 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The Hardest Bug Is the Market · Muhammad Luthfi Arifin</title>
-<meta name="description" content="A founder talk by Muhammad Luthfi Arifin on product–market fit: what WIGO taught about building, what Abadikan taught about selling early, and how AI shortens the learning loop.">
+<title>Build What People Want. Learn Faster with AI. · Muhammad Luthfi Arifin</title>
+<meta name="description" content="A founder talk by Muhammad Luthfi Arifin: WIGO taught him how to build, Abadikan taught him what to build, and AI helps him learn faster.">
 <meta property="og:type" content="website">
-<meta property="og:title" content="The Hardest Bug Is the Market">
-<meta property="og:description" content="How I learned to build products people actually want. WIGO, Abadikan, and AI as a faster learning loop.">
+<meta property="og:title" content="Build What People Want. Learn Faster with AI.">
+<meta property="og:description" content="Don’t build faster. Learn faster. A founder story from WIGO and Abadikan, and how AI shortens the learning loop.">
 <meta property="og:url" content="https://luthfiarifin.github.io/slide-the-hardest-bug-is-the-market/">
 <meta property="og:image" content="https://luthfiarifin.github.io/slide-the-hardest-bug-is-the-market/cover.jpg">
 <meta name="twitter:card" content="summary_large_image">
@@ -1284,6 +1284,29 @@
   .act-div h2{font-family:var(--sans);font-weight:200;font-size:min(6.4vw,11.4vh);line-height:.98;letter-spacing:-.04em;color:var(--accent-on);max-width:22ch}
   .act-div .act-sub{font-family:var(--sans);font-weight:400;font-size:max(18px,1.25vw);line-height:1.4;color:var(--accent-on);opacity:.9;max-width:52ch;border-top:1px solid rgba(255,255,255,.35);padding-top:2.2vh}
 
+
+  /* New flow: network, flow rows, judgment, bigger "should" */
+  .net-box{height:17vh;display:flex;align-items:center}
+  .net-svg{height:100%;width:auto;max-width:100%;color:var(--ink);overflow:visible}
+  .q-foot{font-family:var(--sans);font-weight:300;font-size:min(1.8vw,3.2vh);line-height:1.3;letter-spacing:-.015em;border-top:1px solid var(--grey-2);padding-top:2.2vh}
+  .q-foot b{font-weight:500}
+  .q-after.big{font-size:min(3.4vw,6vh);line-height:1.05}
+  .flow-rows{display:flex;flex-direction:column;gap:2.4vh}
+  .flow{display:grid;grid-template-columns:7vw auto 1fr auto;align-items:center;gap:1vw;color:#fff}
+  .flow:last-child{grid-template-columns:7vw auto 1fr auto 1fr auto}
+  .flow .t-meta{color:rgba(255,255,255,.8)!important}
+  .flow .node{font-family:var(--mono);font-size:max(13px,.8vw);font-weight:600;letter-spacing:.12em;text-transform:uppercase;border:1px solid rgba(255,255,255,.7);padding:.5em .8em;white-space:nowrap}
+  .flow .node.ai{background:#fff;color:var(--accent);border-color:#fff}
+  .flow .wire{height:0;border-top:2px solid #fff;min-width:2vw}
+  .flow .wire.slow{border-top-style:dotted;border-top-width:3px;opacity:.85}
+  .loop-step.ai .t{color:var(--accent)}
+  .loop-step .d b{font-family:var(--mono);font-size:12px;font-weight:600;letter-spacing:.14em;color:var(--accent);margin-left:.6em}
+  .jd-h{font-family:var(--sans);font-weight:200;font-size:min(6.2vw,11vh);line-height:.95;letter-spacing:-.045em}
+  .jd-list{display:flex;gap:1.4vw;flex-wrap:wrap;border-top:1px solid currentColor;padding-top:2.4vh}
+  .jd-list span{font-family:var(--mono);font-size:max(14px,.95vw);font-weight:600;letter-spacing:.16em;text-transform:uppercase}
+  .jd-list.on-accent{color:#fff;border-top-color:rgba(255,255,255,.4)}
+  .ai-more .q{font-family:var(--sans);font-weight:300;font-size:min(1.7vw,3vh);line-height:1.2;letter-spacing:-.015em}
+
   /* S16 AI evidence */
   .ai-grid{display:grid;grid-template-columns:1fr auto;grid-template-rows:auto auto 1fr;gap:3vh 3vw;align-items:start;min-height:0}
   .ai-grid figure.tile{min-width:0}
@@ -1346,14 +1369,14 @@
     <div class="cover-portrait" data-anim="portrait"><img src="images/01-cover-portrait.jpg" data-image-slot="cover-portrait" alt="Muhammad Luthfi Arifin"></div>
     <div class="chrome-min cover-w">
       <div class="l">Track D · 2026</div>
-      <div class="r">01 / 14</div>
+      <div class="r">01 / 16</div>
     </div>
     <div class="cover-w" style="flex:1;padding:0;display:grid;grid-template-rows:auto 1fr auto;gap:2.6vh">
-      <div data-anim="line" class="t-meta" style="color:rgba(255,255,255,.8);letter-spacing:.22em">A founder’s notes on product–market fit</div>
-      <h1 data-anim="title" style="align-self:center;font-family:var(--sans);font-weight:200;font-size:min(8.4vw,14.5vh);line-height:.94;letter-spacing:-.035em;color:#fff">The hardest<br>bug is<br><span style="font-style:italic;font-weight:300">the market.</span></h1>
+      <div data-anim="line" class="t-meta" style="color:rgba(255,255,255,.8);letter-spacing:.22em">Think → Analyze → Build</div>
+      <h1 data-anim="title" style="align-self:center;font-family:var(--sans);font-weight:200;font-size:min(7.6vw,13.4vh);line-height:.96;letter-spacing:-.035em;color:#fff">Build what<br>people want.<br><span style="font-style:italic;font-weight:300">Learn faster<br>with AI.</span></h1>
       <div data-anim="bottom" style="display:grid;grid-template-rows:auto auto;gap:1.6vh;border-top:1px solid rgba(255,255,255,.3);padding-top:2vh">
-        <div class="lead" style="max-width:52ch;color:#fff;opacity:1;font-weight:400">How I learned to build products people actually want.</div>
-        <div class="t-meta" style="color:rgba(255,255,255,.8)">Muhammad Luthfi Arifin · Founder, Abadikan</div>
+        <div class="lead" style="max-width:52ch;color:#fff;opacity:1;font-weight:400">A founder’s story about knowing what to build.</div>
+        <div class="t-meta" style="color:rgba(255,255,255,.8)">M. Luthfi Arifin · Product Engineer · Founder</div>
       </div>
     </div>
   </div>
@@ -1366,10 +1389,10 @@
       <div class="half b-ink" style="padding:5.6vh 3.6vw var(--nav-safe-bottom);justify-content:space-between">
         <div class="chrome-min" style="margin-bottom:0">
           <div class="l">The product</div>
-          <div class="r">02 / 14</div>
+          <div class="r">02 / 16</div>
         </div>
         <div style="display:flex;flex-direction:column;gap:4vh">
-          <h2 style="font-family:var(--sans);font-weight:200;font-size:min(9.6vw,17vh);line-height:.9;letter-spacing:-.05em;color:var(--paper)">It works.</h2>
+          <h2 style="font-family:var(--sans);font-weight:200;font-size:min(9.6vw,17vh);line-height:.9;letter-spacing:-.05em;color:var(--paper)">It worked.</h2>
           <ul class="checks">
             <li><i data-lucide="check"></i>Tests pass</li>
             <li><i data-lucide="check"></i>App shipped</li>
@@ -1389,9 +1412,9 @@
         <div style="display:flex;flex-direction:column;gap:2vh">
           <div style="font-family:var(--sans);font-weight:200;font-size:min(16vw,30vh);line-height:.85;letter-spacing:-.06em;color:#fff">0</div>
           <div class="t-meta" style="color:rgba(255,255,255,.85)">Customers</div>
-          <h2 style="margin-top:2vh;font-family:var(--sans);font-weight:300;font-size:min(3.4vw,6vh);line-height:1.08;letter-spacing:-.03em;color:#fff;max-width:14ch">So why won’t anyone buy it?</h2>
+          <h2 style="margin-top:2vh;font-family:var(--sans);font-weight:300;font-size:min(3.4vw,6vh);line-height:1.08;letter-spacing:-.03em;color:#fff;max-width:15ch">So why wouldn’t it sell?</h2>
         </div>
-        <p style="font-family:var(--sans);font-size:max(18px,1.1vw);line-height:1.4;color:#fff;border-top:1px solid rgba(255,255,255,.35);padding-top:2vh">The hardest bug isn’t always in your code.</p>
+        <p style="font-family:var(--sans);font-size:max(18px,1.1vw);line-height:1.4;color:#fff;border-top:1px solid rgba(255,255,255,.35);padding-top:2vh">A working product ≠ a wanted product.</p>
       </div>
     </div>
   </div>
@@ -1403,14 +1426,15 @@
     <span class="dot-mat lg" aria-hidden="true" style="position:absolute;right:5vw;top:14vh;width:26vw;height:52vh;color:#fff;opacity:.22"></span>
     <div class="chrome-min">
       <div class="l">Act I · WIGO, 2021–2024</div>
-      <div class="r">03 / 14</div>
+      <div class="r">03 / 16</div>
     </div>
     <div class="act-div">
-      <div data-anim="title" style="align-self:end;display:flex;flex-direction:column;gap:4vh">
+      <div data-anim="title" style="align-self:end;display:flex;flex-direction:column;gap:3vh">
         <div class="act-n">01</div>
-        <h2>We knew how to build.</h2>
+        <div class="t-meta" style="color:rgba(255,255,255,.85)">What WIGO taught me</div>
+        <h2>How to build.</h2>
       </div>
-      <p data-anim="bottom" class="act-sub">Mobile, web, payments, partners, analytics. We never stopped to check who was waiting for it.</p>
+      <p data-anim="bottom" class="act-sub">A B2B and B2C tourism ecosystem, built from zero.</p>
     </div>
   </div>
 </section>
@@ -1422,49 +1446,57 @@
       <img src="images/03-wigo-hero.jpg" data-image-slot="s22-hero-21x9" alt="WIGO tourism app: ticket QR and destination discovery screens" loading="eager"
            style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain;object-position:100% center">
       <div class="chrome-min" style="position:absolute;top:0;left:0;right:0;color:rgba(255,255,255,.9);padding:5.6vh 5vw 0">
-        <div class="l">Act I · WIGO, 2021–2024</div>
-        <div class="r">04 / 14</div>
+        <div class="l">Act I · WIGO</div>
+        <div class="r">04 / 16</div>
       </div>
       <div data-anim="title-block" style="position:absolute;left:5vw;top:13vh;background:var(--paper);padding:3vh 2.6vw">
-        <div style="font-family:var(--sans);font-weight:200;font-size:min(4.4vw,7.8vh);line-height:1;letter-spacing:-.035em;color:var(--text-primary)">We built<br>everything.</div>
+        <div style="font-family:var(--sans);font-weight:200;font-size:min(4.4vw,7.8vh);line-height:1;letter-spacing:-.035em;color:var(--text-primary)">We knew<br>how to build.</div>
       </div>
     </div>
     <div data-anim="kpi" class="image-hero-body" style="padding-top:5vh">
-      <div style="max-width:46ch;font-family:var(--sans);font-size:max(18px,1.3vw);line-height:1.5;font-weight:300;color:var(--text-primary)">I co-founded WIGO, a B2B and B2C tourism ecosystem built from zero. <b style="font-weight:500">Mobile. Web. Payments. Partners. Analytics.</b></div>
+      <div style="max-width:46ch;font-family:var(--sans);font-size:max(18px,1.3vw);line-height:1.5;font-weight:300;color:var(--text-primary)">I co-founded WIGO and built its tourism ecosystem from zero. <b style="font-weight:500">Mobile · Web · B2B · B2C · Payments · Analytics</b></div>
       <div class="image-hero-stats" style="gap:2.4vw">
         <div class="hs"><div class="rule-top"></div><div class="t-meta">For travelers</div><div class="hs-big">B2C</div><p class="body-sm">Tickets, wallet, discovery.</p></div>
         <div class="hs"><div class="rule-top"></div><div class="t-meta">For attractions</div><div class="hs-big">B2B</div><p class="body-sm">Partner platform and dashboards.</p></div>
-        <div class="hs"><div class="rule-top accent"></div><div class="t-meta">The catch</div><div class="hs-big" style="color:var(--accent)">≠</div><p class="body-sm"><b>Building ≠ selling.</b></p></div>
+        <div class="hs"><div class="rule-top accent"></div><div class="t-meta">The catch</div><div class="hs-big" style="color:var(--accent)">≠</div><p class="body-sm"><b>The problem was outside the product.</b></p></div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ============ 05 · The mistake · S11 Horizontal Timeline ============ -->
-<section class="slide grey" data-layout="S11" data-animate="timeline-walk" data-slide-id="the-mistake">
+<!-- ============ 05 · The real problem · S08 Duo Compare ============ -->
+<section class="slide grey" data-layout="S08" data-animate="duo-mirror" data-slide-id="network">
   <div class="canvas-card">
     <div class="chrome-min">
-      <div class="l">The mistake</div>
-      <div class="r">05 / 14</div>
+      <div class="l">The real problem</div>
+      <div class="r">05 / 16</div>
     </div>
-    <figure class="meme" style="--tilt:3deg;right:6vw;top:10vh;width:10vw">
+    <figure class="meme" style="--tilt:3deg;right:6vw;top:9vh;width:9.5vw">
       <img src="images/meme-waiting-for-users.jpg" data-image-slot="meme-sticker" alt="Meme: skeleton on a bench, app developers waiting for users after doing zero marketing">
     </figure>
-    <div style="flex:1;padding:0;display:grid;grid-template-rows:auto 1fr auto;gap:2vh;min-height:0">
+    <div style="flex:1;padding:0;display:grid;grid-template-rows:auto 1fr auto;gap:5vh;min-height:0">
       <div data-anim="line" style="display:flex;flex-direction:column;gap:1.4vh">
-        <div class="t-cat">What we actually did</div>
-        <h2 style="font-family:var(--sans);font-weight:200;font-size:min(4.6vw,8.2vh);line-height:1.02;letter-spacing:-.035em">We tested the product.<br><span class="hl">Not the market.</span></h2>
+        <div class="t-cat">Where our customers came from</div>
+        <h2 style="font-family:var(--sans);font-weight:200;line-height:1.02;letter-spacing:-.035em;font-size:min(4.6vw,8.2vh)">Our network<br><span class="hl">wasn’t the market.</span></h2>
       </div>
-      <div class="timeline-h">
-        <div class="tl-row">
-          <div class="th-node up"><span class="dot"></span><div class="label"><span class="yr">01</span><span class="name">Idea</span></div></div>
-          <div class="th-node down"><span class="dot"></span><div class="label"><span class="yr">02</span><span class="name">Build</span></div></div>
-          <div class="th-node up"><span class="dot"></span><div class="label"><span class="yr">03</span><span class="name">Build</span><span class="desc">More features</span></div></div>
-          <div class="th-node down"><span class="dot"></span><div class="label"><span class="yr">04</span><span class="name">Build</span><span class="desc">Even more</span></div></div>
-          <div class="th-node up accent"><span class="dot"></span><div class="label"><span class="yr">05 · Sell</span><span class="name">“Wait… who actually wants this?”</span></div></div>
+      <div class="duo-compare" style="margin-top:0">
+        <div class="col">
+          <div class="col-tag"><span class="num">A</span>Our network</div>
+          <div class="net-box"><svg class="net-svg" viewBox="0 0 300 160" aria-hidden="true">
+            <g stroke="currentColor" stroke-width="1.2" opacity=".55"><line x1="60" y1="80" x2="120" y2="40"/><line x1="60" y1="80" x2="120" y2="120"/><line x1="120" y1="40" x2="175" y2="80"/><line x1="120" y1="120" x2="175" y2="80"/><line x1="120" y1="40" x2="120" y2="120"/></g>
+            <g fill="currentColor"><circle cx="60" cy="80" r="9"/><circle cx="120" cy="40" r="9"/><circle cx="120" cy="120" r="9"/><circle cx="175" cy="80" r="9"/></g>
+            <line x1="190" y1="80" x2="282" y2="80" stroke="var(--accent)" stroke-width="2" stroke-dasharray="6 5"/><path d="M282,72 L296,80 L282,88 z" fill="var(--accent)"/>
+          </svg></div>
+          <div class="col-desc">Someone knows someone. An intro, a demo, some interest… and we kept building.</div>
+        </div>
+        <div class="vrule"></div>
+        <div class="col accent">
+          <div class="col-tag"><span class="num">B</span>The market</div>
+          <div class="net-box"><span class="dot-mat dense" aria-hidden="true" style="display:block;width:100%;height:100%;color:var(--ink);opacity:.45"></span></div>
+          <div class="col-desc">Hundreds of businesses we never asked what they actually needed.</div>
         </div>
       </div>
-      <p data-anim="foot" style="font-family:var(--sans);font-weight:300;font-size:min(2vw,3.6vh);letter-spacing:-.015em;border-top:1px solid var(--grey-2);padding-top:2.2vh">A working product is not proof of demand.</p>
+      <p data-anim="foot" class="q-foot">We asked <b>“Where can we sell this?”</b> instead of <b>“What does this market need?”</b></p>
     </div>
   </div>
 </section>
@@ -1475,105 +1507,106 @@
     <span class="dot-mat lg" aria-hidden="true" style="position:absolute;right:5vw;top:14vh;width:26vw;height:52vh;color:#fff;opacity:.22"></span>
     <div class="chrome-min">
       <div class="l">Act II · Abadikan</div>
-      <div class="r">06 / 14</div>
+      <div class="r">06 / 16</div>
     </div>
     <div class="act-div">
-      <div data-anim="title" style="align-self:end;display:flex;flex-direction:column;gap:4vh">
+      <div data-anim="title" style="align-self:end;display:flex;flex-direction:column;gap:3vh">
         <div class="act-n">02</div>
-        <h2>Sell before it’s ready.</h2>
+        <div class="t-meta" style="color:rgba(255,255,255,.85)">What Abadikan taught me</div>
+        <h2>What to build.</h2>
       </div>
-      <p data-anim="bottom" class="act-sub">Put a rough version in front of real buyers, then let them tell us what to build.</p>
+      <p data-anim="bottom" class="act-sub">Sell early, listen, change, repeat.</p>
     </div>
   </div>
 </section>
 
-<!-- ============ 07 · Abadikan, differently · S05 Three Layers ============ -->
+<!-- ============ 07 · Market joined R&D · S05 Three Layers ============ -->
 <section class="slide light" data-layout="S05" data-animate="stack-build" data-slide-id="abadikan-loop">
   <div class="canvas-card">
     <div class="chrome-min">
       <div class="l">Act II · Abadikan</div>
-      <div class="r">07 / 14</div>
+      <div class="r">07 / 16</div>
     </div>
     <div style="flex:1;padding:0;display:grid;grid-template-rows:auto 1fr auto;gap:5vh;min-height:0">
       <div data-anim="line" style="display:flex;flex-direction:column;gap:1.4vh">
-        <div class="t-cat">About six months, three versions</div>
-        <h2 style="font-family:var(--sans);font-weight:200;font-size:min(4.4vw,7.8vh);line-height:1.02;letter-spacing:-.035em">This time, the market<br>was part of R&amp;D.</h2>
+        <div class="t-cat">About six months of R&amp;D, in the open</div>
+        <h2 style="font-family:var(--sans);font-weight:200;line-height:1.02;letter-spacing:-.035em;font-size:min(4.4vw,7.8vh)">This time, the market<br>joined the R&amp;D.</h2>
       </div>
       <div class="stack-row" style="margin-top:0">
         <div class="stack-block b-grey">
-          <div class="layer-nb">V1 · Build, then sell</div>
+          <div class="layer-nb">V1 → Market</div>
           <div class="layer-ttl">“Not enough.”</div>
-          <div class="layer-desc">A first version in front of real buyers, early.</div>
+          <div class="layer-desc">People didn’t care. Good. That’s data.</div>
         </div>
         <div class="stack-block b-grey">
-          <div class="layer-nb">V2 · Change, sell again</div>
+          <div class="layer-nb">V2 → Market</div>
           <div class="layer-ttl">“Interesting, but…”</div>
-          <div class="layer-desc">We changed the product based on what we heard.</div>
+          <div class="layer-desc">They liked it, but wouldn’t pay. Also data.</div>
         </div>
         <div class="stack-block b-accent">
-          <div class="layer-nb">V3 · Change again</div>
+          <div class="layer-nb">V3 → Market</div>
           <div class="layer-ttl">People pay.</div>
-          <div class="layer-desc">Willingness to pay became the signal.</div>
+          <div class="layer-desc">And they asked for something different.</div>
         </div>
       </div>
-      <div class="t-meta loop-line">Build → Sell → Listen → Change → Repeat</div>
+      <div class="t-meta loop-line">Build → Market → Learn → Change ↺</div>
     </div>
   </div>
 </section>
 
-<!-- ============ 08 · Market pull · S16 Multi-card Brief (image cards) ============ -->
+<!-- ============ 08 · Market pull · S16 image cards ============ -->
 <section class="slide light" data-layout="S16" data-animate="field-notes" data-slide-id="market-pull">
   <div class="canvas-card">
     <div class="chrome-min">
       <div class="l">Act II · Abadikan</div>
-      <div class="r">08 / 14</div>
+      <div class="r">08 / 16</div>
     </div>
     <div style="flex:1;padding:0;display:grid;grid-template-rows:auto auto 1fr;gap:5vh;min-height:0">
       <div data-anim="line" style="display:flex;flex-direction:column;gap:1.4vh">
-        <div class="t-cat">Customers started showing us what to build next</div>
-        <h2 style="font-family:var(--sans);font-weight:200;font-size:min(4.4vw,7.8vh);line-height:1;letter-spacing:-.035em">The market started pulling us.</h2>
+        <div class="t-cat">Customers started giving us the answer</div>
+        <h2 style="font-family:var(--sans);font-weight:200;line-height:1.02;letter-spacing:-.035em;font-size:min(3.9vw,7vh);line-height:1.02">We stopped pushing.<br>The market started pulling.</h2>
       </div>
       <div data-anim="up" class="pull-grid">
         <figure class="tile">
           <div class="frame-img fit-contain pull-shot" style="background:#fcfaf8"><img src="images/06-abadikan-b2c.jpg" data-image-slot="s16-brief-16x10" alt="Abadikan.id digital invitation on three phones"></div>
-          <figcaption class="swiss-img-caption"><strong>B2C · Abadikan.id</strong><span>Digital invitations → gifting → event tech</span></figcaption>
+          <figcaption class="swiss-img-caption"><strong>B2C · Abadikan.id</strong><span>Digital invitations → event experiences</span></figcaption>
         </figure>
         <figure class="tile">
           <div class="frame-img fit-contain pull-shot" style="background:#2b2219"><img src="images/06-catalog-b2b.jpg" data-image-slot="s16-brief-16x10" alt="Interactive hotel catalog and resort estate map on phones"></div>
-          <figcaption class="swiss-img-caption"><strong>B2B · One client’s request</strong><span>Interactive catalog → a studio business</span></figcaption>
+          <figcaption class="swiss-img-caption"><strong>B2B · “Can you build this for us?”</strong><span>Static PDFs → interactive sales experiences</span></figcaption>
         </figure>
       </div>
-      <p data-anim="foot" style="align-self:end;font-family:var(--sans);font-weight:300;font-size:min(1.9vw,3.4vh);line-height:1.3;letter-spacing:-.015em">At WIGO, we pushed the product into the market.<br><span class="hl">At Abadikan, the market pulled the product out of us.</span></p>
+      <p data-anim="foot" style="align-self:end;font-family:var(--sans);font-weight:300;font-size:min(1.8vw,3.2vh);line-height:1.3;letter-spacing:-.015em">At WIGO, we tried to find a market for the product.<br><span class="hl">At Abadikan, we let the market shape the product.</span></p>
     </div>
   </div>
 </section>
 
-<!-- ============ 09 · What changed · S13 Three Forces ============ -->
+<!-- ============ 09 · The actual lesson · S13 Three Forces ============ -->
 <section class="slide light" data-layout="S13" data-animate="three-forces" data-slide-id="what-changed">
   <div class="canvas-card">
     <div class="chrome-min">
-      <div class="l">What changed</div>
-      <div class="r">09 / 14</div>
+      <div class="l">The actual lesson</div>
+      <div class="r">09 / 16</div>
     </div>
-    <div data-anim="up" style="flex:1;padding:0;display:grid;grid-template-columns:6fr 10fr;gap:1.4vw;min-height:0">
+    <div data-anim="up" style="flex:1;padding:0;display:grid;grid-template-columns:7fr 9fr;gap:1.4vw;min-height:0">
       <div class="card-ink" style="position:relative;overflow:hidden;padding:4vh 2.4vw;display:flex;flex-direction:column;justify-content:space-between">
         <span class="dot-mat" aria-hidden="true" style="position:absolute;right:-2vw;top:-2vw;width:16vw;height:16vw;color:var(--accent);opacity:.5"></span>
-        <div class="t-cat" style="position:relative">Changing the question</div>
+        <div class="t-cat" style="position:relative">Changing the first question</div>
         <div style="position:relative;display:flex;flex-direction:column;gap:3vh">
           <div>
-            <div class="t-meta">Before</div>
-            <div class="q-before">“Can we build this?”</div>
+            <div class="t-meta">Engineers ask</div>
+            <div class="q-before">“Can we build it?”</div>
           </div>
           <div>
-            <div class="t-meta">After</div>
-            <div class="q-after">“Who needs this badly enough to pay for it?”</div>
+            <div class="t-meta">Business asks first</div>
+            <div class="q-after big">“Should we build it?”</div>
           </div>
         </div>
       </div>
       <div style="display:grid;grid-template-rows:repeat(3,1fr);gap:1.4vw;min-height:0">
-        <div class="card-fill force-row"><div class="force-n">01</div><h3>Sell early.</h3><p>Test willingness to pay before building more.</p></div>
-        <div class="card-fill force-row"><div class="force-n">02</div><h3>Listen hard.</h3><p>Look for pain that repeats across customers.</p></div>
-        <div class="card-fill force-row"><div class="force-n">03</div><h3>Build less.</h3><p>Only build the next step the evidence supports.</p></div>
+        <div class="card-fill force-row"><div class="force-n">01</div><h3>Think.</h3><p>Whose problem is this, and how badly do they need it solved?</p></div>
+        <div class="card-fill force-row"><div class="force-n">02</div><h3>Analyze.</h3><p>What does the evidence from the market say?</p></div>
+        <div class="card-fill force-row"><div class="force-n">03</div><h3>Build.</h3><p>Only after understanding the problem.</p></div>
       </div>
     </div>
   </div>
@@ -1585,93 +1618,155 @@
     <span class="dot-mat lg" aria-hidden="true" style="position:absolute;right:5vw;top:14vh;width:26vw;height:52vh;color:#fff;opacity:.22"></span>
     <div class="chrome-min">
       <div class="l">Act III · AI</div>
-      <div class="r">10 / 14</div>
+      <div class="r">10 / 16</div>
     </div>
     <div class="act-div">
-      <div data-anim="title" style="align-self:end;display:flex;flex-direction:column;gap:4vh">
+      <div data-anim="title" style="align-self:end;display:flex;flex-direction:column;gap:3vh">
         <div class="act-n">03</div>
-        <h2>More signals than hands.</h2>
+        <div class="t-meta" style="color:rgba(255,255,255,.85)">What AI helps me do</div>
+        <h2>Learn faster.</h2>
       </div>
-      <p data-anim="bottom" class="act-sub">When the market starts pulling, the signals pile up: chats, orders, leads, dashboards. The loop slows down at “listen.”</p>
+      <p data-anim="bottom" class="act-sub">Shorten the distance between a market signal and a business decision.</p>
     </div>
   </div>
 </section>
 
-<!-- ============ 11 · AI and the loop · S14 Loop Form ============ -->
+<!-- ============ 11 · The bottleneck moved · S03 Split Statement ============ -->
+<section class="slide split dark" data-layout="S03" data-animate="statement" data-slide-id="bottleneck">
+  <div class="canvas-card">
+    <div class="split-half">
+      <div class="half b-ink" style="padding:5.6vh 3.6vw var(--nav-safe-bottom);justify-content:space-between">
+        <div class="chrome-min" style="margin-bottom:0">
+          <div class="l">The bottleneck moved</div>
+          <div class="r">11 / 16</div>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:4vh">
+          <h2 style="font-family:var(--sans);font-weight:200;font-size:min(6.4vw,11.4vh);line-height:.95;letter-spacing:-.045em;color:var(--paper)">Building<br>is fast.</h2>
+          <ul class="checks">
+            <li><i data-lucide="check"></i>Frameworks &amp; cloud</li>
+            <li><i data-lucide="check"></i>Copilots</li>
+            <li><i data-lucide="check"></i>Coding agents</li>
+          </ul>
+        </div>
+        <div class="t-meta">Faster every month</div>
+      </div>
+      <div class="half b-accent" style="padding:5.6vh 3.6vw var(--nav-safe-bottom);justify-content:space-between">
+        <div class="chrome-min" style="margin-bottom:0;color:rgba(255,255,255,.75)">
+          <div class="l">The market</div>
+          <div class="r">Signal → decision</div>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:4vh">
+          <h2 style="font-family:var(--sans);font-weight:200;font-size:min(6.4vw,11.4vh);line-height:.95;letter-spacing:-.045em;color:#fff">Learning<br>is slow.</h2>
+          <div class="flow-rows">
+            <div class="flow"><span class="t-meta">Before</span><span class="node">Signal</span><span class="wire slow"></span><span class="node">Decision</span></div>
+            <div class="flow"><span class="t-meta">With AI</span><span class="node">Signal</span><span class="wire"></span><span class="node ai">AI</span><span class="wire"></span><span class="node">Decision</span></div>
+          </div>
+        </div>
+        <p style="font-family:var(--sans);font-size:max(18px,1.1vw);line-height:1.4;color:#fff;border-top:1px solid rgba(255,255,255,.35);padding-top:2vh">Build 10× faster but learn at the same speed, and you build the wrong thing 10× faster.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 12 · AI in the loop · S14 Loop Form ============ -->
 <section class="slide dark" data-layout="S14" data-animate="loop-form" data-slide-id="ai-loop">
   <div class="canvas-card">
     <div class="chrome-min">
       <div class="l">Act III · AI</div>
-      <div class="r">11 / 14</div>
+      <div class="r">12 / 16</div>
     </div>
     <div style="flex:1;padding:0;display:grid;grid-template-rows:auto 1fr;gap:4vh;min-height:0">
       <div data-anim="line" style="display:flex;flex-direction:column;gap:1.4vh">
         <div class="t-cat">Where AI fits</div>
-        <h2 style="font-family:var(--sans);font-weight:200;font-size:min(3.8vw,6.8vh);line-height:1.05;letter-spacing:-.03em;color:var(--paper)">AI didn’t find product–market fit.<br><span style="color:var(--accent)">It made the loop faster.</span></h2>
+        <h2 style="font-family:var(--sans);font-weight:200;font-size:min(3.8vw,6.8vh);line-height:1.05;letter-spacing:-.03em;color:var(--paper)">AI doesn’t replace the loop.<br><span style="color:var(--accent)">It makes the loop faster.</span></h2>
       </div>
       <div data-anim="up" style="display:grid;grid-template-columns:7fr 5fr;gap:4vw;align-items:center;min-height:0">
         <div style="display:flex;flex-direction:column">
-          <div class="loop-step"><span class="n">01</span><span class="t">Market</span><span class="d">A signal: a question, a complaint, a drop.</span></div>
-          <div class="loop-step"><span class="n">02</span><span class="t">Data</span><span class="d">Dashboards, chats, leads, orders.</span></div>
-          <div class="loop-step"><span class="n">03</span><span class="t">Decision</span><span class="d">What do we change next?</span></div>
-          <div class="loop-step"><span class="n">04</span><span class="t">Action</span><span class="d">Ship it, sell it, follow up, back to the market.</span></div>
+          <div class="loop-step"><span class="n">01</span><span class="t">Think</span><span class="d">Whose problem, and how badly?</span></div>
+          <div class="loop-step ai"><span class="n">02</span><span class="t">Analyze</span><span class="d">What are the signals telling us? <b>AI</b></span></div>
+          <div class="loop-step"><span class="n">03</span><span class="t">Build</span><span class="d">The next step the evidence supports.</span></div>
+          <div class="loop-step"><span class="n">04</span><span class="t">Market</span><span class="d">Sell it, ship it, listen.</span></div>
+          <div class="loop-step ai"><span class="n">05</span><span class="t">Data</span><span class="d">Orders, questions, complaints, leads. <b>AI</b></span></div>
         </div>
         <div class="loop-stage">
-          <svg viewBox="0 0 400 400" aria-hidden="true"><defs><marker id="loop-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="currentColor"/></marker></defs><circle cx="200" cy="200" r="150" fill="none" stroke="currentColor" stroke-width="1.2"/><circle cx="200.0" cy="50.0" r="11" fill="var(--accent)"/><circle cx="350.0" cy="200.0" r="11" fill="currentColor"/><circle cx="200.0" cy="350.0" r="11" fill="currentColor"/><circle cx="50.0" cy="200.0" r="11" fill="currentColor"/><path d="M226.0,52.3 A150,150 0 0 1 347.7,174.0" fill="none" stroke="currentColor" stroke-width="2" marker-end="url(#loop-arrow)"/><path d="M347.7,226.0 A150,150 0 0 1 226.0,347.7" fill="none" stroke="currentColor" stroke-width="2" marker-end="url(#loop-arrow)"/><path d="M174.0,347.7 A150,150 0 0 1 52.3,226.0" fill="none" stroke="currentColor" stroke-width="2" marker-end="url(#loop-arrow)"/><path d="M52.3,174.0 A150,150 0 0 1 174.0,52.3" fill="none" stroke="currentColor" stroke-width="2" marker-end="url(#loop-arrow)"/></svg><span class="node-lbl" style="left:50.0%;top:2.5%">Market</span><span class="node-lbl" style="left:97.5%;top:50.0%">Data</span><span class="node-lbl" style="left:50.0%;top:97.5%">Decision</span><span class="node-lbl" style="left:2.5%;top:50.0%">Action</span><div class="center"><div class="big">AI</div><div class="sm">Shorter distance from signal to decision</div></div>
+          <svg viewBox="0 0 400 400" aria-hidden="true"><defs><marker id="loop-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="currentColor"/></marker></defs><circle cx="200" cy="200" r="150" fill="none" stroke="currentColor" stroke-width="1.2"/><circle cx="200.0" cy="50.0" r="11" fill="currentColor"/><circle cx="342.7" cy="153.6" r="11" fill="var(--accent)"/><circle cx="288.2" cy="321.4" r="11" fill="currentColor"/><circle cx="111.8" cy="321.4" r="11" fill="currentColor"/><circle cx="57.3" cy="153.6" r="11" fill="var(--accent)"/><path d="M223.5,51.8 A150,150 0 0 1 333.7,131.9" fill="none" stroke="currentColor" stroke-width="2" marker-end="url(#loop-arrow)"/><path d="M348.2,176.5 A150,150 0 0 1 306.1,306.1" fill="none" stroke="currentColor" stroke-width="2" marker-end="url(#loop-arrow)"/><path d="M268.1,333.7 A150,150 0 0 1 131.9,333.7" fill="none" stroke="currentColor" stroke-width="2" marker-end="url(#loop-arrow)"/><path d="M93.9,306.1 A150,150 0 0 1 51.8,176.5" fill="none" stroke="currentColor" stroke-width="2" marker-end="url(#loop-arrow)"/><path d="M66.3,131.9 A150,150 0 0 1 176.5,51.8" fill="none" stroke="currentColor" stroke-width="2" marker-end="url(#loop-arrow)"/></svg><span class="node-lbl" style="left:50.0%;top:2.0%">Think</span><span class="node-lbl" style="left:95.7%;top:35.2%">Analyze</span><span class="node-lbl" style="left:78.2%;top:88.8%">Build</span><span class="node-lbl" style="left:21.8%;top:88.8%">Market</span><span class="node-lbl" style="left:4.3%;top:35.2%">Data</span><div class="center"><div class="big">AI</div><div class="sm">Signals in, decisions faster</div></div>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ============ 12 · AI where the business is slow · S16 evidence ============ -->
+<!-- ============ 13 · AI where the business is slow · S16 evidence ============ -->
 <section class="slide light" data-layout="S16" data-animate="field-notes" data-slide-id="ai-bottleneck">
   <div class="canvas-card">
     <div class="chrome-min">
       <div class="l">Act III · AI</div>
-      <div class="r">12 / 14</div>
+      <div class="r">13 / 16</div>
     </div>
     <div style="flex:1;padding:0;display:grid;grid-template-rows:auto 1fr;gap:5vh;min-height:0">
       <div data-anim="line" style="display:flex;flex-direction:column;gap:1.4vh">
-        <div class="t-cat">How AI actually shows up at Abadikan</div>
-        <h2 style="font-family:var(--sans);font-weight:200;font-size:min(4.4vw,7.8vh);line-height:1;letter-spacing:-.035em">AI where the business is slow.</h2>
+        <div class="t-cat">How I use AI today</div>
+        <h2 style="font-family:var(--sans);font-weight:200;line-height:1.02;letter-spacing:-.035em;font-size:min(4.4vw,7.8vh);line-height:1">AI where the business is slow.</h2>
       </div>
       <div data-anim="up" class="ai-grid">
         <figure class="tile">
           <div class="frame-img fit-contain ai-shot" style="background:#061721"><img src="images/ai-analytics-dashboard.jpg" data-image-slot="s16-ai-analytics" alt="Abadikan Metabase dashboard: revenue versus ad spend, numbers blurred"></div>
-          <figcaption class="swiss-img-caption"><strong>01 · Analytics · In use</strong><span>Claude + Metabase MCP: “what changed, and why?”</span></figcaption>
+          <figcaption class="swiss-img-caption"><strong>01 · Analytics</strong><span>What changed, and why?</span></figcaption>
         </figure>
         <figure class="tile phone">
           <div class="frame-img fit-contain ai-shot tall" style="background:#0a0a0a"><img src="images/ai-support-mindi.jpg" data-image-slot="s16-ai-support" alt="WhatsApp chat: a customer asks about revisions, Mindi explains, and the customer asks for the order link"></div>
-          <figcaption class="swiss-img-caption"><strong>02 · Support · In production</strong><span>Mindi on WhatsApp</span></figcaption>
+          <figcaption class="swiss-img-caption"><strong>02 · Customer support</strong><span>What keeps coming up?</span></figcaption>
         </figure>
         <div class="ai-more">
-          <div><span class="t-meta">— 03 / Sales · In production</span><span class="d">An agent researches, verifies and scores leads into our pipeline.</span></div>
-          <div><span class="t-meta">— 04 / Operations · Next</span><span class="d">Repetitive, rules-based checks are the next place to look.</span></div>
+          <div><span class="t-meta">— 03 / Sales</span><span class="q">Where are customers stuck?</span></div>
+          <div><span class="t-meta">— 04 / Compliance</span><span class="q">What needs attention?</span></div>
         </div>
-        <p class="ai-foot">The goal isn’t to put AI everywhere. <span class="hl">The goal is to find where the business is slow.</span></p>
+        <p class="ai-foot">The goal isn’t to put AI everywhere. <span class="hl">It’s to find where the business is slow.</span></p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ============ 13 · Closing ============ -->
+<!-- ============ 14 · AI is not the decision maker · S10 Split Statement ============ -->
+<section class="slide split" data-layout="S10" data-animate="statement" data-slide-id="judgment">
+  <div class="canvas-card">
+    <div class="split-half">
+      <div class="half b-grey" style="padding:5.6vh 3.6vw var(--nav-safe-bottom);justify-content:space-between">
+        <div class="chrome-min" style="margin-bottom:0">
+          <div class="l">One important limit</div>
+          <div class="r">14 / 16</div>
+        </div>
+        <h2 class="jd-h">AI finds<br>signals.</h2>
+        <div class="jd-list"><span>Data</span><span>Patterns</span><span>Speed</span></div>
+      </div>
+      <div class="half b-accent" style="padding:5.6vh 3.6vw var(--nav-safe-bottom);justify-content:space-between">
+        <div class="chrome-min" style="margin-bottom:0;color:rgba(255,255,255,.75)">
+          <div class="l">You</div>
+          <div class="r">Still the decision maker</div>
+        </div>
+        <h2 class="jd-h" style="color:#fff">You provide<br>judgment.</h2>
+        <div class="jd-list on-accent"><span>Context</span><span>Trade-offs</span><span>Judgment</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 15 · Closing ============ -->
 <section class="slide split" data-layout="SWISS-CLOSING-ASCII" data-animate="split-statement" data-slide-id="closing">
   <div class="canvas-card">
     <div class="split-half">
       <div class="half b-accent" style="padding:5.6vh 3.6vw var(--nav-safe-bottom);justify-content:space-between;position:relative;overflow:hidden">
         <canvas class="ascii-bg" aria-hidden="true"></canvas>
         <div class="chrome-min" style="margin-bottom:0;position:relative;z-index:1;color:rgba(255,255,255,.75)">
-          <div class="l">13 / 14</div>
+          <div class="l">15 / 16</div>
           <div class="r">Closing</div>
         </div>
         <div data-anim="manifesto" style="display:flex;flex-direction:column;gap:2vh;position:relative;z-index:1">
-          <div style="font-family:var(--sans);font-weight:400;font-size:min(1.8vw,3.2vh);line-height:1.25;color:#fff">Don’t just build what you can build.</div>
-          <h2 style="font-family:var(--sans);font-size:min(5.6vw,10vh);line-height:.96;letter-spacing:-.035em;font-weight:200;color:#fff">Build what the market keeps <span style="font-style:italic;font-weight:300">asking for.</span></h2>
-          <div style="margin-top:2vh;font-family:var(--sans);font-weight:400;font-size:max(18px,1.1vw);color:rgba(255,255,255,.9)">And use AI to learn faster.</div>
+          <h2 style="font-family:var(--sans);font-size:min(6vw,10.6vh);line-height:.96;letter-spacing:-.035em;font-weight:200;color:#fff">Don’t build faster.<br><span style="font-style:italic;font-weight:300">Learn faster.</span></h2>
+          <div style="margin-top:2vh;font-family:var(--mono);font-size:max(14px,.9vw);letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.9)">Think → Analyze → Build → Learn → Repeat</div>
         </div>
         <div data-anim="signature" style="display:flex;justify-content:space-between;align-items:end;border-top:1px solid rgba(255,255,255,.3);padding-top:2vh;position:relative;z-index:1;gap:2vw">
-          <div class="t-meta" style="color:rgba(255,255,255,.8)">Muhammad Luthfi Arifin · Founder, Abadikan</div>
+          <div class="t-meta" style="color:rgba(255,255,255,.8)">M. Luthfi Arifin · Product Engineer · Founder</div>
           <div class="t-meta" style="color:rgba(255,255,255,.8)">laam.my.id</div>
         </div>
       </div>
@@ -1681,33 +1776,30 @@
           <div class="r">03</div>
         </div>
         <div data-anim="rules" style="display:flex;flex-direction:column;gap:0">
-          <div class="take"><div class="n">01</div><div><div class="t-meta">WIGO</div><h3>How to build products.</h3></div></div>
-          <div class="take"><div class="n">02</div><div><div class="t-meta">Abadikan</div><h3>How to build with the market.</h3></div></div>
-          <div class="take last"><div class="n">03</div><div><div class="t-meta">AI</div><h3><span class="hl">A shorter path from signal to decision.</span></h3></div></div>
+          <div class="take"><div class="n">01</div><div><div class="t-meta">WIGO</div><h3>How to build.</h3></div></div>
+          <div class="take"><div class="n">02</div><div><div class="t-meta">Abadikan</div><h3>What to build.</h3></div></div>
+          <div class="take last"><div class="n">03</div><div><div class="t-meta">AI</div><h3><span class="hl">How to learn faster.</span></h3></div></div>
         </div>
-        <p style="font-family:var(--sans);font-weight:300;font-size:min(1.6vw,2.9vh);line-height:1.35;letter-spacing:-.01em">Don’t only ask “Can I build this?”<br><b style="font-weight:500">Ask who needs it enough to use it, pay for it, and ask for more.</b></p>
+        <p style="font-family:var(--sans);font-weight:300;font-size:min(1.9vw,3.4vh);line-height:1.3;letter-spacing:-.015em">Build what people want.<br><b style="font-weight:500">Learn faster with AI.</b></p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ============ 14 · Q&A · S12 Manifesto + Ink Banner ============ -->
+<!-- ============ 16 · Q&A · S12 Manifesto + Ink Banner ============ -->
 <section class="slide light" data-layout="S12" data-animate="manifesto" data-slide-id="qa">
   <div class="canvas-card">
     <div class="chrome-min">
       <div class="l">Q&amp;A</div>
-      <div class="r">14 / 14</div>
+      <div class="r">16 / 16</div>
     </div>
     <div style="flex:1;padding:0;display:grid;grid-template-columns:9fr 5fr;gap:4vw;align-items:start">
-      <div data-anim="line" style="display:flex;flex-direction:column;gap:2vh">
+      <div data-anim="line" style="display:flex;flex-direction:column;gap:2.4vh">
         <div class="t-cat">Your turn</div>
-        <div style="font-family:var(--sans);font-weight:200;font-size:min(12vw,20vh);line-height:.9;letter-spacing:-.05em">Questions?</div>
+        <div style="font-family:var(--sans);font-weight:200;font-size:min(7.4vw,13vh);line-height:.94;letter-spacing:-.045em">What are you<br>building?</div>
+        <div style="font-family:var(--sans);font-weight:300;font-size:min(2vw,3.6vh);line-height:1.25;letter-spacing:-.015em;color:var(--text-secondary);max-width:30ch">And what evidence says people actually want it?</div>
       </div>
-      <figure class="meme" style="--tilt:-3deg;left:34vw;top:42vh;width:14vw">
-        <img src="images/meme-first-time.jpg" data-image-slot="meme-sticker" alt="Meme: Morpheus, nobody makes it the first time">
-      </figure>
       <div data-anim="qr" class="qa-side">
-        <p class="t-body" style="color:var(--text-secondary)">Ask me about WIGO, finding demand for Abadikan, or where AI actually helps a small business.</p>
         <figure class="qa-qr">
           <img src="images/11-qr-talk.svg" data-image-slot="qa-qr" alt="QR code to laam.my.id/talks/the-hardest-bug-is-the-market: slides and contact">
           <figcaption>
@@ -1716,11 +1808,14 @@
           </figcaption>
         </figure>
       </div>
+      <figure class="meme" style="--tilt:-3deg;left:42vw;top:40vh;width:11vw">
+        <img src="images/meme-first-time.jpg" data-image-slot="meme-sticker" alt="Meme: Morpheus, nobody makes it the first time">
+      </figure>
     </div>
     <div data-anim="up" class="ink-banner">
       <div style="font-family:var(--sans);font-weight:300;font-size:min(2.6vw,4.6vh);letter-spacing:-.02em">Thank you.</div>
       <div style="display:flex;gap:3vw;align-items:baseline">
-        <span class="t-meta" style="color:rgba(250,250,248,.7)">Muhammad Luthfi Arifin</span>
+        <span class="t-meta" style="color:rgba(250,250,248,.7)">M. Luthfi Arifin</span>
         <span class="t-meta" style="color:var(--accent)">laam.my.id</span>
       </div>
     </div>
@@ -1735,151 +1830,172 @@
 <script>
 const SPEAKER_NOTES = [
   {
-    id: 'cover', title: 'The Hardest Bug Is the Market', section: 'Hook', minutes: 0.2,
-    purpose: 'Put the title up and move straight into the hook, no CV intro',
+    id: 'cover', title: 'Build What People Want. Learn Faster with AI.', section: 'Intro', minutes: 0.6,
+    purpose: 'Introduce yourself and plant the question of the talk',
     talk: [
-      'Say the title, then go straight to the next slide.',
-      'Do not introduce your CV here. The story will do that.'
+      '“Hi everyone, I’m Luthfi. I’m a product engineer, and for the last few years I’ve also been building my own businesses.”',
+      '“Today I don’t want to talk about how to build an AI application.”',
+      '“I want to talk about something I think is more important: how do we know that what we’re building should exist in the first place?”',
+      '“Because being able to build something… doesn’t mean people actually want it.”'
     ],
-    transition: 'Straight into the hook.'
+    transition: 'Click.'
   },
   {
-    id: 'hook', title: 'It works. 0 customers.', section: 'Hook', minutes: 0.7,
+    id: 'hook', title: 'It worked. So why wouldn’t it sell?', section: 'Hook', minutes: 0.8,
     purpose: 'Make engineers feel the bug they cannot fix with code',
     talk: [
-      '“As engineers, we’re trained to solve bugs. If the app crashes, we fix it. If it’s slow, we optimize it.”',
-      '“But I spent years learning there’s one bug you can’t solve with better code:”',
-      '“The market doesn’t want what you built.”',
-      '“And I learned that the hard way.”'
+      '“As engineers, we’re trained to solve technical problems. If the app crashes, we fix it. If it’s slow, we optimize it. If customers ask for a feature, we build it.”',
+      '“So naturally, we start believing that a better product will eventually create a better business.”',
+      '“I believed that too.”',
+      '“Until I built WIGO.”'
     ],
-    transition: 'Go straight into the WIGO story.',
-    cue: 'Pause after “doesn’t want what you built.” Let the zero-downloads meme get its laugh before moving on.'
+    transition: 'Click into Act I.',
+    cue: 'Let the zero-downloads meme get its laugh, then land “A working product is not a wanted product.”'
   },
   {
-    id: 'act-1', title: 'Act I · We knew how to build', section: 'Act I · WIGO', minutes: 0.15,
-    purpose: 'Signal the first chapter',
+    id: 'act-1', title: 'Act I · How to build', section: 'Act I · WIGO', minutes: 0.1,
+    purpose: 'Chapter marker, and the first line of the throughline',
     talk: [
-      '“Act one. WIGO.”',
-      '“We knew how to build.”'
+      '“Act one. WIGO taught me how to build.”'
     ],
-    transition: 'Click straight to the WIGO slide.'
+    transition: 'Click straight on.'
   },
   {
-    id: 'wigo', title: 'WIGO: we built everything', section: 'Act I · WIGO', minutes: 1.0,
-    purpose: 'Establish that the team was technically strong, then show the gap',
+    id: 'wigo', title: 'We knew how to build', section: 'Act I · WIGO', minutes: 1.0,
+    purpose: 'Show the team was technically strong, and that attention went inward',
     talk: [
-      '“A few years ago, I co-founded WIGO. Technically, we built a lot: mobile apps, partner systems, payments, backend, analytics. A complete B2B and B2C tourism ecosystem.”',
-      '“But there was one problem. We were much better at building the product than testing the market.”',
-      '“Most opportunities came from our network. Someone knew someone, then we tried to sell there.”',
-      '“We never systematically asked: is this actually the market that needs this product?”'
+      '“At WIGO, we could build. We built a complete tourism ecosystem: mobile apps, partner apps, payments, dashboards, B2B, B2C.”',
+      '“Technically, there was always something else we could improve. And because I came from engineering, that’s where most of my attention went.”',
+      '“Better architecture. More features. Better infrastructure. Better product.”',
+      '“But eventually I realized: our biggest problem was not inside the product. It was outside of it.”'
     ],
-    transition: 'Here is what that looked like as a process.'
+    transition: 'Click.',
+    cue: 'Pause before “It was outside of it.”'
   },
   {
-    id: 'the-mistake', title: 'We tested the product, not the market', section: 'Act I · WIGO', minutes: 0.8,
-    purpose: 'Name the mistake in one line',
+    id: 'network', title: 'Our network wasn’t the market', section: 'Act I · WIGO', minutes: 1.0,
+    purpose: 'Name the real mistake: an introduction is not market validation',
     talk: [
-      'Walk the line: idea, build, build, build, then sell, and only then: “wait, who actually wants this?”',
-      '“Our validation happened too late.”',
-      '“We spent months improving what the product could do before learning what customers would pay for.”',
-      '“A working product is not proof of demand.”'
+      '“A lot of our early opportunities came through our network. Someone knew someone. We got an introduction, we demoed the product, maybe there was interest. And then we kept building.”',
+      '“But an introduction is not market validation. A customer from your network doesn’t mean you’ve found a repeatable market.”',
+      '“We were asking: ‘Where can we sell this product?’ when the better question was: ‘What does this market desperately need?’”',
+      '“We had tested the product. We hadn’t tested enough of the market.”'
     ],
-    transition: '“So when I started Abadikan, I tried the opposite.”',
-    cue: 'Point at the skeleton, pause for the laugh, then say “that was us.”',
-    fallback: 'If asked for a definition: a16z frames PMF as being in a good market with a product that can satisfy it. Keep theory to one sentence.'
+    transition: '“So when I started Abadikan, I wanted to do it differently.”',
+    cue: 'Point at the skeleton on “and then we kept building.” Say line 1 of the six: “Our network wasn’t the market.”'
   },
   {
-    id: 'act-2', title: 'Act II · Sell before it’s ready', section: 'Act II · Abadikan', minutes: 0.15,
-    purpose: 'Signal the flip: selling becomes part of building',
+    id: 'act-2', title: 'Act II · What to build', section: 'Act II · Abadikan', minutes: 0.1,
+    purpose: 'Chapter marker, second line of the throughline',
     talk: [
-      '“Act two. Abadikan.”',
-      '“This time, we sold before it was ready.”'
+      '“Act two. Abadikan taught me what to build.”'
     ],
-    transition: 'Click to the three versions.'
+    transition: 'Click straight on.'
   },
   {
-    id: 'abadikan-loop', title: 'The market was part of R&D', section: 'Act II · Abadikan', minutes: 1.0,
-    purpose: 'Show the opposite approach: selling as part of building',
+    id: 'abadikan-loop', title: 'The market joined the R&D', section: 'Act II · Abadikan', minutes: 1.1,
+    purpose: 'Show selling as part of building',
     talk: [
-      '“For roughly six months, we kept building, putting versions into the market, getting feedback, changing the product, and trying again.”',
-      'V1: “not enough.” V2: “interesting, but…” V3: people paid.',
-      '“Not: let’s finish the perfect product and then launch.”',
-      '“But: let’s see if someone cares before we build more.”'
+      '“We still did R&D. For around six months, we experimented with different versions and different approaches.”',
+      '“The difference was that we didn’t keep the R&D inside the company. We put it in front of the market. We tried to sell it. We listened. We changed it. And we tried again.”',
+      '“The market became part of the R&D process.”',
+      '“Sometimes people didn’t care. Good, that’s data. Sometimes they liked it but wouldn’t pay. Also data. Sometimes they asked for something completely different. That turned out to be the most valuable data.”'
     ],
-    transition: 'And then something changed.'
+    transition: '“And after enough iterations, something started changing.”'
   },
   {
-    id: 'market-pull', title: 'The market started pulling us', section: 'Act II · Abadikan', minutes: 1.1,
-    purpose: 'Describe what product–market fit felt like, without claiming the textbook term',
+    id: 'market-pull', title: 'We stopped pushing. The market started pulling.', section: 'Act II · Abadikan', minutes: 1.1,
+    purpose: 'Describe what market pull felt like, without saying “product–market fit”',
     talk: [
-      '“Instead of us inventing new things and convincing people to use them, customers started showing us what to build next.”',
-      'B2C: from digital invitations into gifting and other event experiences.',
-      'B2B: a hospitality client needed a better way to present and sell wedding packages than static PDFs. That became an interactive catalog, and then a studio business.',
-      '“At WIGO, we pushed the product into the market. At Abadikan, the market started pulling the product out of us.”'
+      '“Instead of us asking ‘what else should we build?’, people started giving us the answer. One use case opened another.”',
+      'B2C: digital invitations expanded into different event experiences.',
+      'B2B: “Businesses came with a different problem: ‘Can you build something like this for us?’ One hospitality client’s sales process still depended on static PDFs. So we asked: how do customers understand the offer and get ready to book faster?”',
+      'If asked for results: 3× longer exploration time, 40% more customers ready to book, 50% fewer basic sales questions.',
+      '“At WIGO, we tried to find a market for the product. At Abadikan, we let the market shape the product.”'
     ],
-    transition: '“So what actually changed? Not a framework. The question.”',
-    cue: 'Slow down on the push / pull line.'
+    transition: '“So what was the actual lesson?”',
+    cue: 'This is one of the six lines. Slow down on it.'
   },
   {
-    id: 'what-changed', title: 'Changing the question', section: 'Lessons', minutes: 0.9,
-    purpose: 'Turn the story into three habits the audience can copy',
+    id: 'what-changed', title: 'Should we build it?', section: 'Lesson', minutes: 0.8,
+    purpose: 'Turn the story into the question, and tie it to the track title',
     talk: [
-      '“My biggest lesson wasn’t a new framework. It was changing the question.”',
-      'Before: “Can we build this?” After: “Who needs this badly enough to pay for it?”',
-      'Sell early: test willingness to pay. Listen hard: look for repeated pain. Build less: only the next evidence-backed step.'
+      '“My biggest product lesson wasn’t a new language or a startup framework. It was changing the first question.”',
+      '“As engineers, we ask: can we build it? But business needs another question first: should we build it?”',
+      '“That’s why I like the title of this track: Think. Analyze. Build. Building is supposed to come after understanding the problem.”',
+      '“But there’s still a problem.” Pause. “Learning from the market takes time.”'
     ],
-    transition: '“And once the market starts pulling, you get a new problem.”'
+    transition: 'Click into Act III.'
   },
   {
-    id: 'act-3', title: 'Act III · More signals than hands', section: 'Act III · AI', minutes: 0.4,
-    purpose: 'Bridge from the market story to AI: the bottleneck moved from building to listening',
+    id: 'act-3', title: 'Act III · Learn faster', section: 'Act III · AI', minutes: 0.1,
+    purpose: 'Chapter marker, third line of the throughline',
     talk: [
-      '“Act three. When the market starts pulling, you get more signals than a small team can read.”',
-      '“Customer chats. Orders. Leads. Dashboards. The loop doesn’t slow down at ‘build’ anymore. It slows down at ‘listen.’”',
-      '“And that’s where the engineer in me found a new job: not building more features, but building tools that shorten the loop.”'
+      '“Act three. AI helps me learn faster.”'
     ],
-    transition: '“So this is how I think about AI.”',
-    cue: 'This is the pivot of the talk. Slow down.'
+    transition: 'Click straight on.'
   },
   {
-    id: 'ai-loop', title: 'AI made the loop faster', section: 'Act III · AI', minutes: 0.7,
-    purpose: 'Position AI as speed for the learning loop, not a replacement for it',
+    id: 'bottleneck', title: 'Building is fast. Learning is slow.', section: 'Act III · AI', minutes: 0.8,
+    purpose: 'Move the bottleneck from building to learning, then bring in AI',
     talk: [
-      '“AI didn’t find product–market fit for us.”',
-      '“It made the loop faster: market, data, decision, action, back to the market.”',
-      '“I don’t use AI because it’s trendy. I use it wherever it reduces the distance between a market signal and a business decision.”'
+      '“Today, building is becoming ridiculously fast. Better frameworks, better cloud, copilots, coding agents.”',
+      '“But if we can build ten times faster while learning from customers at the same speed… we can also build the wrong thing ten times faster.”',
+      '“This is where AI becomes interesting to me. Not because it can magically create product–market fit, but because it can shorten the distance between a market signal and a business decision.”'
     ],
-    transition: 'Here is where it actually shows up for us.',
-    cue: 'Pause after “didn’t find product–market fit.”'
+    transition: 'Click.',
+    cue: 'Big pause after “the wrong thing ten times faster.”'
   },
   {
-    id: 'ai-bottleneck', title: 'AI where the business is slow', section: 'Act III · AI', minutes: 1.0,
-    purpose: 'Give concrete, real examples, then the disclaimer',
+    id: 'ai-loop', title: 'AI makes the loop faster', section: 'Act III · AI', minutes: 0.8,
+    purpose: 'Put AI inside the loop, not next to it',
     talk: [
-      'Analytics (left screenshot): “Our data already lives in dashboards like this one. Instead of digging through every chart, I ask Claude in plain language and it investigates the data through the Metabase MCP.”',
-      'Support (right screenshot): a real customer asks how many revisions they get. Mindi explains from our own answers, and the chat ends with the customer saying “please make the link.” It hands off to a human when unsure.',
-      'Sales: an agent researches, verifies and scores leads into our pipeline.',
-      'Operations: repetitive, rules-based checks are the next place we’re looking.',
-      '“The goal isn’t to put AI everywhere. The goal is to find where the business is slow.”'
+      '“I don’t think of AI as a separate business strategy. I put it inside the loop we already had.”',
+      '“The market produces signals: transactions, questions, complaints, sales conversations, user behaviour, operational issues.”',
+      '“AI helps us process those signals faster. But we still decide what they mean.”'
     ],
-    transition: 'Bring it back to the whole story.'
+    transition: '“Here’s where it actually shows up for me.”'
   },
   {
-    id: 'closing', title: 'Closing', section: 'Closing', minutes: 0.8,
-    purpose: 'Land the lesson and leave the question with the audience',
+    id: 'ai-bottleneck', title: 'AI where the business is slow', section: 'Act III · AI', minutes: 1.1,
+    purpose: 'Real examples, one micro-story, then the rule',
     talk: [
-      '“WIGO taught me how to build products. Abadikan taught me how to build products with the market.”',
-      '“And AI is helping me shorten the distance between a customer signal and the next decision.”',
-      '“If you’re building something today, don’t only ask: can I build this?”',
-      '“Ask: who needs this enough to use it, pay for it, and ask for more?” Thank you.'
+      'Analytics (left): “Instead of opening dashboards and digging through every chart, I ask questions in plain language and AI works with the data.” Story: a product line was losing momentum; the AI found a case-sensitive dashboard filter that hid 24 orders in 14 days, and separated seasonality from campaign performance.',
+      'Support (right): “The questions customers keep asking aren’t just tickets, they’re product signals.” This chat is real: a customer asks about revisions, Mindi explains, and it ends with “please make the link.”',
+      'Sales: “Leads, objections and follow-ups show where customers hesitate and what they value.”',
+      'Compliance: “AI assists with repetitive checks and surfaces what needs human attention.”',
+      '“The objective isn’t to put AI everywhere. It’s to find where the business is slow.”'
     ],
-    transition: 'Open the floor for questions',
-    cue: 'Slow down on the final question, then pause before “Thank you.”'
+    transition: '“But there’s one important limit.”',
+    cue: 'Don’t explain MCP. The audience doesn’t need it here.'
   },
   {
-    id: 'qa', title: 'Q&A', section: 'Q&A',
-    purpose: 'Take questions',
+    id: 'judgment', title: 'AI finds signals. You provide judgment.', section: 'Act III · AI', minutes: 0.7,
+    purpose: 'Keep the AI message from sounding gimmicky',
     talk: [
+      '“Faster analysis does not automatically mean better decisions.”',
+      '“AI can tell me revenue is falling. It can find a pattern. It can propose an action. But it doesn’t fully understand my cash flow, my customers, my strategy, or the risk I’m willing to take.”',
+      '“So I don’t want AI to run my business. I want AI to help me understand my business faster.”'
+    ],
+    transition: 'Bring it home.'
+  },
+  {
+    id: 'closing', title: 'Don’t build faster. Learn faster.', section: 'Closing', minutes: 1.0,
+    purpose: 'Land the throughline and the final line',
+    talk: [
+      '“If there’s one thing I hope you remember from my story: WIGO taught me how to build. Abadikan taught me the market needs to be part of the building process. And AI is helping me shorten the time between a customer signal and a business decision.”',
+      '“The advantage today isn’t that we can build more software. Everyone can build faster.”',
+      '“The advantage is learning what matters before everyone else does.”',
+      '“So don’t just build faster. Learn faster. Build what people want, and use AI to help you understand what that is.”'
+    ],
+    transition: 'Click to Q&A.',
+    cue: 'Slow down on “Learn faster.” Pause before the last sentence.'
+  },
+  {
+    id: 'qa', title: 'What are you building?', section: 'Q&A',
+    purpose: 'Open questions with a question back to the audience',
+    talk: [
+      '“So, what are you building? And what evidence says people actually want it?”',
       'Likely topics: why WIGO struggled to sell, how to test willingness to pay, how Abadikan found B2B, which AI tools to start with.',
       'If the WIGO question comes up, point at Morpheus: “Nobody makes it the first time.”'
     ],

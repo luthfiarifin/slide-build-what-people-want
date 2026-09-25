@@ -1,8 +1,10 @@
-# The Hardest Bug Is the Market
+# Build What People Want. Learn Faster with AI.
 
-A founder talk (Track D, about 8 minutes + Q&A) by Muhammad Luthfi Arifin, Founder of Abadikan.
+A founder talk (Track D, about 10 minutes + Q&A) by Muhammad Luthfi Arifin, Product Engineer and Founder of Abadikan.
 
-> How I learned to build products people actually want.
+> WIGO taught me how to build. Abadikan taught me what to build. AI helps me learn faster.
+
+(The repo keeps its original slug, `the-hardest-bug-is-the-market`, so the live URL and QR keep working.)
 
 **Live:** https://luthfiarifin.github.io/slide-the-hardest-bug-is-the-market/
 
@@ -10,28 +12,30 @@ Part of [luthfiarifin/research](https://github.com/luthfiarifin/research) (linke
 
 ## Story
 
-- **Act I · WIGO:** we knew how to build, but struggled to sell. We tested the product, not the market.
-- **Act II · Abadikan:** we sold early, listened, and changed the product until the market started pulling us.
-- **Act III · AI:** AI didn't find product–market fit. It made the learning loop faster.
+- **Act I · WIGO:** we knew how to build, but our network wasn't the market.
+- **Act II · Abadikan:** the market joined the R&D, then started pulling the product.
+- **Act III · AI:** building is fast, learning is slow. AI makes the loop faster; judgment stays human.
 
 ## Slides
 
 | # | Slide | Layout |
 |---|---|---|
-| 01 | The hardest bug is the market | Cover with portrait |
-| 02 | It works. 0 customers. So why won't anyone buy it? (+ zero-downloads meme) | S03 split statement |
-| 03 | Act I · We knew how to build. | S09 act divider |
-| 04 | WIGO: we built everything | S22 image hero |
-| 05 | We tested the product. Not the market. (+ skeleton meme) | S11 horizontal timeline |
-| 06 | Act II · Sell before it's ready. | S09 act divider |
-| 07 | This time, the market was part of R&D (V1 → V3) | S05 three layers |
-| 08 | The market started pulling us (B2C + B2B) | S16 image cards |
-| 09 | Changing the question: sell early, listen hard, build less | S13 three forces |
-| 10 | Act III · More signals than hands. (bridge into AI) | S09 act divider |
-| 11 | AI didn't find PMF. It made the loop faster. | S14 loop |
-| 12 | AI where the business is slow (Metabase + Mindi screenshots) | S16 image cards |
-| 13 | Build what the market keeps asking for (closing) | Split closing |
-| 14 | Questions? + QR to laam.my.id/talks/the-hardest-bug-is-the-market (+ Morpheus meme) | S12 manifesto + banner |
+| 01 | Build what people want. Learn faster with AI. | Cover with portrait |
+| 02 | It worked. So why wouldn't it sell? (+ zero-downloads meme) | S03 split statement |
+| 03 | Act I · How to build. | S09 act divider |
+| 04 | We knew how to build (WIGO) | S22 image hero |
+| 05 | Our network wasn't the market. (+ skeleton meme) | S08 duo compare |
+| 06 | Act II · What to build. | S09 act divider |
+| 07 | This time, the market joined the R&D (V1 → V3) | S05 three layers |
+| 08 | We stopped pushing. The market started pulling. (B2C + B2B) | S16 image cards |
+| 09 | Can we build it? → Should we build it? Think · Analyze · Build | S13 three forces |
+| 10 | Act III · Learn faster. | S09 act divider |
+| 11 | Building is fast. Learning is slow. | S03 split statement |
+| 12 | AI doesn't replace the loop. It makes the loop faster. | S14 loop |
+| 13 | AI where the business is slow (Metabase + Mindi screenshots) | S16 image cards |
+| 14 | AI finds signals. You provide judgment. | S10 split statement |
+| 15 | Don't build faster. Learn faster. (closing) | Split closing |
+| 16 | What are you building? + QR to laam.my.id/talks/the-hardest-bug-is-the-market (+ Morpheus meme) | S12 manifesto + banner |
 
 ## Presenting
 
@@ -46,7 +50,7 @@ Open `index.html` in a browser (no server needed).
 
 The on-screen shortcut hint is hidden for a clean stage; the keys above still work.
 
-Speaker notes live in the `SPEAKER_NOTES` array near the end of `index.html`, keyed by each slide's `data-slide-id`. Planned timing is 8.9 minutes.
+Speaker notes live in the `SPEAKER_NOTES` array near the end of `index.html`, keyed by each slide's `data-slide-id`. Planned timing is 11.1 minutes (the outline’s own per-slide times).
 
 Icons (Lucide, pinned), fonts (Google Fonts) and a Motion fallback load from CDNs; `assets/motion.min.js` is bundled, so the deck still works offline with system fonts.
 
