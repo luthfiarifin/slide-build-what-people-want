@@ -4,9 +4,7 @@ A founder talk (Track D, about 10 minutes + Q&A) by Muhammad Luthfi Arifin, Prod
 
 > WIGO taught me how to build. Abadikan taught me what to build. AI helps me learn faster.
 
-(The repo keeps its original slug, `the-hardest-bug-is-the-market`, so the live URL and QR keep working.)
-
-**Live:** https://luthfiarifin.github.io/slide-the-hardest-bug-is-the-market/
+**Live:** https://luthfiarifin.github.io/slide-build-what-people-want/
 
 Part of [luthfiarifin/research](https://github.com/luthfiarifin/research) (linked as a submodule under `99-talks/`) and deployed to GitHub Pages by CI.
 
@@ -35,7 +33,7 @@ Part of [luthfiarifin/research](https://github.com/luthfiarifin/research) (linke
 | 13 | AI where the business is slow (Metabase + Mindi screenshots) | S16 image cards |
 | 14 | AI finds signals. You provide judgment. | S10 split statement |
 | 15 | Don't build faster. Learn faster. (closing) | Split closing |
-| 16 | What are you building? + QR to laam.my.id/talks/the-hardest-bug-is-the-market (+ Morpheus meme) | S12 manifesto + banner |
+| 16 | What are you building? + QR to laam.my.id/talks/build-what-people-want (+ Morpheus meme) | S12 manifesto + banner |
 
 ## Presenting
 

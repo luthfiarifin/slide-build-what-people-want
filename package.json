@@ -1,7 +1,7 @@
 {
-  "name": "slide-the-hardest-bug-is-the-market",
+  "name": "slide-build-what-people-want",
   "private": true,
-  "description": "Founder talk: The Hardest Bug Is the Market. Product–market fit lessons from WIGO and Abadikan, and AI as a faster learning loop.",
+  "description": "Founder talk: Build What People Want. Learn Faster with AI. WIGO, Abadikan, and AI as a faster learning loop.",
   "license": "AGPL-3.0-only",
   "type": "module",
   "engines": {
