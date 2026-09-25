@@ -18,17 +18,20 @@ Part of [luthfiarifin/research](https://github.com/luthfiarifin/research) (linke
 
 | # | Slide | Layout |
 |---|---|---|
-| 01 | The hardest bug is the market | Cover with portrait |
-| 02 | It works. 0 customers. So why won't anyone buy it? | S03 split statement |
-| 03 | WIGO: we built everything | S22 image hero |
-| 04 | We tested the product. Not the market. | S11 horizontal timeline |
-| 05 | This time, the market was part of R&D (V1 → V3) | S05 three layers |
-| 06 | The market started pulling us (B2C + B2B) | S16 image cards |
-| 07 | Changing the question: sell early, listen hard, build less | S13 three forces |
-| 08 | AI didn't find PMF. It made the loop faster. | S14 loop |
-| 09 | AI where the business is slow | S19 four cards |
-| 10 | Build what the market keeps asking for (closing) | Split closing |
-| 11 | Questions? + QR to laam.my.id/talks/the-hardest-bug-is-the-market | S12 manifesto + banner |
+| 01 | The hardest bug is the market (+ “bugs at the market” sticker) | Cover with portrait |
+| 02 | It works. 0 customers. So why won't anyone buy it? (+ zero-downloads meme) | S03 split statement |
+| 03 | Act I · We knew how to build. | S09 act divider |
+| 04 | WIGO: we built everything | S22 image hero |
+| 05 | We tested the product. Not the market. (+ skeleton meme) | S11 horizontal timeline |
+| 06 | Act II · Sell before it's ready. | S09 act divider |
+| 07 | This time, the market was part of R&D (V1 → V3) | S05 three layers |
+| 08 | The market started pulling us (B2C + B2B) | S16 image cards |
+| 09 | Changing the question: sell early, listen hard, build less | S13 three forces |
+| 10 | Act III · More signals than hands. (bridge into AI) | S09 act divider |
+| 11 | AI didn't find PMF. It made the loop faster. | S14 loop |
+| 12 | AI where the business is slow (Metabase + Mindi screenshots) | S16 image cards |
+| 13 | Build what the market keeps asking for (closing) | Split closing |
+| 14 | Questions? + QR to laam.my.id/talks/the-hardest-bug-is-the-market (+ Morpheus meme) | S12 manifesto + banner |
 
 ## Presenting
 
@@ -43,7 +46,7 @@ Open `index.html` in a browser (no server needed).
 
 The on-screen shortcut hint is hidden for a clean stage; the keys above still work.
 
-Speaker notes live in the `SPEAKER_NOTES` array near the end of `index.html`, keyed by each slide's `data-slide-id`. Planned timing is 8.2 minutes.
+Speaker notes live in the `SPEAKER_NOTES` array near the end of `index.html`, keyed by each slide's `data-slide-id`. Planned timing is 8.9 minutes.
 
 Icons (Lucide, pinned), fonts (Google Fonts) and a Motion fallback load from CDNs; `assets/motion.min.js` is bundled, so the deck still works offline with system fonts.
 
@@ -74,4 +77,4 @@ Dependabot keeps the Actions and npm dependencies up to date.
 
 Built on the Swiss Style template from [guizang-ppt-skill](https://github.com/op7418/guizang-ppt-skill) (Safety Orange theme), with the presenter UI translated to English. The template and the vendored validator scripts are AGPL-3.0, so this repository is licensed under [AGPL-3.0](LICENSE).
 
-Slide copy, speaker notes, the portrait and the WIGO, Abadikan and interactive-catalog product images are © Muhammad Luthfi Arifin.
+Slide copy, speaker notes, the portrait and the WIGO, Abadikan, interactive-catalog, analytics and support screenshots are © Muhammad Luthfi Arifin. The memes and the market photo belong to their respective owners.
