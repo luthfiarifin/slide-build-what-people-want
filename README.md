@@ -10,7 +10,7 @@ Part of [luthfiarifin/research](https://github.com/luthfiarifin/research) (linke
 
 ## Story
 
-- **Act I · WIGO:** we knew how to build, but our network wasn't the market.
+- **Act I · WIGO:** we knew how to build, but we tested the product, not the market.
 - **Act II · Abadikan:** the market joined the R&D, then started pulling the product.
 - **Act III · AI:** building is fast, learning is slow. AI makes the loop faster; judgment stays human.
 
@@ -22,7 +22,7 @@ Part of [luthfiarifin/research](https://github.com/luthfiarifin/research) (linke
 | 02 | It worked. So why wouldn't it sell? (+ zero-downloads meme) | S03 split statement |
 | 03 | Act I · How to build. | S09 act divider |
 | 04 | We knew how to build (WIGO) | S22 image hero |
-| 05 | Our network wasn't the market. (+ skeleton meme) | S08 duo compare |
+| 05 | We tested the product. Not the market. (+ skeleton meme) | S11 horizontal timeline |
 | 06 | Act II · What to build. | S09 act divider |
 | 07 | This time, the market joined the R&D (V1 → V3) | S05 three layers |
 | 08 | We stopped pushing. The market started pulling. (B2C + B2B) | S16 image cards |

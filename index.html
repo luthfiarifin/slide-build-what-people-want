@@ -1285,11 +1285,7 @@
   .act-div .act-sub{font-family:var(--sans);font-weight:400;font-size:max(18px,1.25vw);line-height:1.4;color:var(--accent-on);opacity:.9;max-width:52ch;border-top:1px solid rgba(255,255,255,.35);padding-top:2.2vh}
 
 
-  /* New flow: network, flow rows, judgment, bigger "should" */
-  .net-box{height:17vh;display:flex;align-items:center}
-  .net-svg{height:100%;width:auto;max-width:100%;color:var(--ink);overflow:visible}
-  .q-foot{font-family:var(--sans);font-weight:300;font-size:min(1.8vw,3.2vh);line-height:1.3;letter-spacing:-.015em;border-top:1px solid var(--grey-2);padding-top:2.2vh}
-  .q-foot b{font-weight:500}
+  /* New flow: flow rows, judgment, bigger "should" */
   .q-after.big{font-size:min(3.4vw,6vh);line-height:1.05}
   .flow-rows{display:flex;flex-direction:column;gap:2.4vh}
   .flow{display:grid;grid-template-columns:7vw auto 1fr auto;align-items:center;gap:1vw;color:#fff}
@@ -1464,39 +1460,34 @@
   </div>
 </section>
 
-<!-- ============ 05 · The real problem · S08 Duo Compare ============ -->
-<section class="slide grey" data-layout="S08" data-animate="duo-mirror" data-slide-id="network">
+<!-- ============ 05 · The mistake · S11 Horizontal Timeline ============ -->
+<section class="slide grey" data-layout="S11" data-animate="timeline-walk" data-slide-id="the-mistake">
   <div class="canvas-card">
     <div class="chrome-min">
-      <div class="l">The real problem</div>
+      <div class="l">The mistake</div>
       <div class="r">05 / 16</div>
     </div>
-    <figure class="meme" style="--tilt:3deg;right:6vw;top:9vh;width:9.5vw">
+    <figure class="meme" style="--tilt:3deg;right:6vw;top:10vh;width:10vw">
       <img src="images/meme-waiting-for-users.jpg" data-image-slot="meme-sticker" alt="Meme: skeleton on a bench, app developers waiting for users after doing zero marketing">
     </figure>
-    <div style="flex:1;padding:0;display:grid;grid-template-rows:auto 1fr auto;gap:5vh;min-height:0">
+    <div style="flex:1;padding:0;display:grid;grid-template-rows:auto 1fr auto;gap:2vh;min-height:0">
       <div data-anim="line" style="display:flex;flex-direction:column;gap:1.4vh">
-        <div class="t-cat">Where our customers came from</div>
-        <h2 style="font-family:var(--sans);font-weight:200;line-height:1.02;letter-spacing:-.035em;font-size:min(4.6vw,8.2vh)">Our network<br><span class="hl">wasn’t the market.</span></h2>
+        <div class="t-cat">What we actually did</div>
+        <h2 style="font-family:var(--sans);font-weight:200;font-size:min(4.6vw,8.2vh);line-height:1.02;letter-spacing:-.035em">We tested the product.<br><span class="hl">Not the market.</span></h2>
       </div>
-      <div class="duo-compare" style="margin-top:0">
-        <div class="col">
-          <div class="col-tag"><span class="num">A</span>Our network</div>
-          <div class="net-box"><svg class="net-svg" viewBox="0 0 300 160" aria-hidden="true">
-            <g stroke="currentColor" stroke-width="1.2" opacity=".55"><line x1="60" y1="80" x2="120" y2="40"/><line x1="60" y1="80" x2="120" y2="120"/><line x1="120" y1="40" x2="175" y2="80"/><line x1="120" y1="120" x2="175" y2="80"/><line x1="120" y1="40" x2="120" y2="120"/></g>
-            <g fill="currentColor"><circle cx="60" cy="80" r="9"/><circle cx="120" cy="40" r="9"/><circle cx="120" cy="120" r="9"/><circle cx="175" cy="80" r="9"/></g>
-            <line x1="190" y1="80" x2="282" y2="80" stroke="var(--accent)" stroke-width="2" stroke-dasharray="6 5"/><path d="M282,72 L296,80 L282,88 z" fill="var(--accent)"/>
-          </svg></div>
-          <div class="col-desc">Someone knows someone. An intro, a demo, some interest… and we kept building.</div>
-        </div>
-        <div class="vrule"></div>
-        <div class="col accent">
-          <div class="col-tag"><span class="num">B</span>The market</div>
-          <div class="net-box"><span class="dot-mat dense" aria-hidden="true" style="display:block;width:100%;height:100%;color:var(--ink);opacity:.45"></span></div>
-          <div class="col-desc">Hundreds of businesses we never asked what they actually needed.</div>
+      <div class="timeline-h">
+        <div class="tl-row">
+          <div class="th-node up"><span class="dot"></span><div class="label"><span class="yr">01</span><span class="name">Idea</span></div></div>
+          <div class="th-node down"><span class="dot"></span><div class="label"><span class="yr">02</span><span class="name">Build</span></div></div>
+          <div class="th-node up"><span class="dot"></span><div class="label"><span class="yr">03</span><span class="name">Build</span><span class="desc">More features</span></div></div>
+          <div class="th-node down"><span class="dot"></span><div class="label"><span class="yr">04</span><span class="name">Build</span><span class="desc">Even more</span></div></div>
+          <div class="th-node up accent"><span class="dot"></span><div class="label"><span class="yr">05 · Sell</span><span class="name">“Wait… who actually wants this?”</span></div></div>
         </div>
       </div>
-      <p data-anim="foot" class="q-foot">We asked <b>“Where can we sell this?”</b> instead of <b>“What does this market need?”</b></p>
+      <div data-anim="foot" style="display:flex;justify-content:space-between;align-items:baseline;gap:3vw;border-top:1px solid var(--grey-2);padding-top:2.2vh">
+        <p style="font-family:var(--sans);font-weight:300;font-size:min(2vw,3.6vh);letter-spacing:-.015em">A working product is not proof of demand.</p>
+        <span class="t-meta" style="text-align:right;max-width:52ch">PMF: a good market, with a product that can satisfy it · Marc Andreessen</span>
+      </div>
     </div>
   </div>
 </section>
@@ -1873,16 +1864,18 @@ const SPEAKER_NOTES = [
     cue: 'Pause before “It was outside of it.”'
   },
   {
-    id: 'network', title: 'Our network wasn’t the market', section: 'Act I · WIGO', minutes: 1.0,
-    purpose: 'Name the real mistake: an introduction is not market validation',
+    id: 'the-mistake', title: 'We tested the product, not the market', section: 'Act I · WIGO', minutes: 1.0,
+    purpose: 'Name the mistake in one line',
     talk: [
-      '“A lot of our early opportunities came through our network. Someone knew someone. We got an introduction, we demoed the product, maybe there was interest. And then we kept building.”',
-      '“But an introduction is not market validation. A customer from your network doesn’t mean you’ve found a repeatable market.”',
-      '“We were asking: ‘Where can we sell this product?’ when the better question was: ‘What does this market desperately need?’”',
-      '“We had tested the product. We hadn’t tested enough of the market.”'
+      'Walk the line: idea, build, build, build, then sell, and only then: “Wait… who actually wants this?”',
+      '“Most opportunities came through our network. Someone knew someone, we demoed, and we kept building.”',
+      '“Our validation happened too late.”',
+      '“We spent months improving what the product could do before learning what customers were actually willing to pay for.”',
+      '“A working product is not proof of demand.”'
     ],
     transition: '“So when I started Abadikan, I wanted to do it differently.”',
-    cue: 'Point at the skeleton on “and then we kept building.” Say line 1 of the six: “Our network wasn’t the market.”'
+    cue: 'Point at the skeleton on “and we kept building,” pause for the laugh.',
+    fallback: 'If asked for a definition: Andreessen frames PMF as being in a good market with a product that can satisfy it. YC says the same in practice: talk to users, build what they want, iterate fast. Keep theory to one sentence.'
   },
   {
     id: 'act-2', title: 'Act II · What to build', section: 'Act II · Abadikan', minutes: 0.1,
